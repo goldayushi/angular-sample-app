@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 1.4em;
+}
+a:link,
+a:visited {
+  color: #000;
+}
+.main {
+  padding: 8px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+table th,
+table td {
+  border: 1px solid #ccc;
+  padding: 4px;
+}
+table th {
+  background-color: #ddd;
+  text-align: left;
+}
+button {
+  margin-top: 4px;
+  padding: 4px;
+  min-width: 120px;
+}
+input[type="text"] {
+  padding: 4px;
+  width: 300px;
+}
