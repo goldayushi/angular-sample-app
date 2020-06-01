@@ -1,0 +1,12 @@
+<form [formGroup]="form">
+  <div formArrayName="options">
+    <div *ngFor="let option of options.controls; let i = index">
+      <div [formGroupName]="i">
+        <div>やること：<input type="text" formControlName="name" /></div>
+        <div>詳細：<textarea type="text" formControlName="value"></textarea></div>
+      </div>
+      <button (click)="removeOptionForm(i)">削除</button>
+    </div>
+  </div>
+  <button (click)="addOptionForm()">追加</button>
+</form>

@@ -12,6 +12,7 @@ export class UserService {
       { id: 1, name: 'Yamada', email: 'yamada@example.com' },
       { id: 2, name: 'Suzuki', email: 'suzuki@example.com' },
       { id: 3, name: 'Tanaka', email: 'tanaka@example.com' },
+      { id: 4, name: 'Ayu', email: 'ayu@example.com' },
     ];
   }
 
